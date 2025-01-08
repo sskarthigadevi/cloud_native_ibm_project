@@ -1,0 +1,7 @@
+replicaCount: 3
+image:
+  repository: karthigaadevi12/cloud-native-app
+  tag: latest
+service:
+  type: LoadBalancer
+  port: 80
